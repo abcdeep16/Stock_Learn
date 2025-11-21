@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
-export default function App() {
+function App() {
   return (
-    <div>
-      piyush mc
+    <div className="App">
+      <Navbar />
+      <Home />
     </div>
-  )
+  );
 }
+
+export default App;
+
